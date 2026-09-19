@@ -30,7 +30,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g-3',
     title: 'Royal Pink Tea Ritual',
     category: 'tea',
-    image: 'https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?auto=format&fit=crop&w=800&q=80',
     aspect: 'square',
     caption: 'Traditional slow-brewed pink tea with pistachios.'
   },

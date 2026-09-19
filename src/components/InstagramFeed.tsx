@@ -12,7 +12,7 @@ export const InstagramFeed: React.FC = () => {
       caption: 'Quiet corners for slow readers and deep thinkers.',
     },
     {
-      image: 'https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=600&q=80',
+      image: 'https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?auto=format&fit=crop&w=600&q=80',
       caption: 'Royal Kashmiri Pink Chai with crushed pistachios.',
     },
     {
