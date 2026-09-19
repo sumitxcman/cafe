@@ -9,7 +9,7 @@ export const FoodShowcase: React.FC = () => {
       price: '₹220',
       image: 'https://images.unsplash.com/photo-1623253083987-26681ce4a992?auto=format&fit=crop&w=800&q=80',
       desc: 'Sweet corn and molten mozzarella with house dips.',
-      span: 'col-span-12 md:col-span-7',
+      span: 'col-span-12 md:col-span-6',
       aspect: 'aspect-[16/10]',
     },
     {
@@ -18,8 +18,8 @@ export const FoodShowcase: React.FC = () => {
       price: '₹280',
       image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80',
       desc: 'Artisanal sourdough with pesto, smoked cheese & sun-dried tomatoes.',
-      span: 'col-span-12 md:col-span-5',
-      aspect: 'aspect-[4/3]',
+      span: 'col-span-12 md:col-span-6',
+      aspect: 'aspect-[16/10]',
     },
     {
       title: 'Truffle & Parmesan Fries',

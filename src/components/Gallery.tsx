@@ -44,18 +44,18 @@ export const Gallery: React.FC = () => {
           })}
         </div>
 
-        {/* Luxury Masonry / Asymmetric Gallery */}
-        <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+        {/* Symmetrical Luxury Grid Gallery */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredGallery.map((item) => (
             <div
               key={item.id}
-              className="break-inside-avoid group relative overflow-hidden bg-cream-100 border border-latte-200 hover:border-copper-400 transition-all duration-300 shadow-sm"
+              className="group relative overflow-hidden bg-cream-100 border border-latte-200 hover:border-copper-400 transition-all duration-300 shadow-sm aspect-[4/3]"
             >
-              <div className="overflow-hidden">
+              <div className="w-full h-full overflow-hidden bg-espresso-900">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                   loading="lazy"
                 />
               </div>
