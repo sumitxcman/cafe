@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Clock, Navigation, UtensilsCrossed, ExternalLink } from 'lucide-react';
+import { MapPin, Phone, Clock, Navigation, UtensilsCrossed, ExternalLink, MessageCircle } from 'lucide-react';
 
 export const Location: React.FC = () => {
   return (
@@ -85,12 +85,12 @@ export const Location: React.FC = () => {
             </div>
 
             {/* CTAs */}
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
               <a
                 href="https://maps.google.com/?q=Amayra+Emporio+Kharar+Punjab"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 text-xs font-semibold uppercase tracking-widest text-cream-50 bg-espresso-900 hover:bg-copper-600 transition-all duration-300 shadow-md group"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-xs font-semibold uppercase tracking-widest text-cream-50 bg-espresso-900 hover:bg-copper-600 transition-all duration-300 shadow-md group"
               >
                 <Navigation className="w-4 h-4" />
                 <span>Get Directions</span>
@@ -98,8 +98,18 @@ export const Location: React.FC = () => {
               </a>
 
               <a
+                href="https://wa.me/919877169296?text=Hi%20Amayra%20Caf%C3%A9%2C%20I%20would%20like%20to%20inquire%20about%20a%20table%20reservation%20or%20order."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-xs font-semibold uppercase tracking-widest text-white bg-[#25D366] hover:bg-[#20bd5a] transition-colors shadow-sm"
+              >
+                <MessageCircle className="w-4 h-4 fill-white" />
+                <span>WhatsApp Us</span>
+              </a>
+
+              <a
                 href="tel:09877169296"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 text-xs font-semibold uppercase tracking-widest text-espresso-900 bg-cream-50 hover:bg-latte-100 border border-latte-300 transition-colors"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-xs font-semibold uppercase tracking-widest text-espresso-900 bg-cream-50 hover:bg-latte-100 border border-latte-300 transition-colors"
               >
                 <Phone className="w-4 h-4 text-copper-600" />
                 <span>Call Café</span>

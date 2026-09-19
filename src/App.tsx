@@ -13,6 +13,7 @@ import { Location } from './components/Location';
 import { InstagramFeed } from './components/InstagramFeed';
 import { Footer } from './components/Footer';
 import { ReservationModal } from './components/ReservationModal';
+import { WhatsAppButton } from './components/WhatsAppButton';
 
 export const App: React.FC = () => {
   const [isReservationOpen, setIsReservationOpen] = useState(false);
@@ -60,6 +61,9 @@ export const App: React.FC = () => {
 
       {/* 12. Sophisticated Dark Footer */}
       <Footer />
+
+      {/* Floating WhatsApp Quick Action Button */}
+      <WhatsAppButton />
 
       {/* Interactive Reservation Modal */}
       <ReservationModal

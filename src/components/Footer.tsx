@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Instagram, Facebook, Phone, MapPin, Clock, ArrowUp } from 'lucide-react';
+import { Instagram, Facebook, Phone, MapPin, Clock, ArrowUp, MessageCircle } from 'lucide-react';
 
 export const Footer: FC = () => {
   const scrollToTop = () => {
@@ -44,6 +44,15 @@ export const Footer: FC = () => {
                 aria-label="Facebook"
               >
                 <Facebook className="w-4 h-4" />
+              </a>
+              <a
+                href="https://wa.me/919877169296?text=Hi%20Amayra%20Caf%C3%A9%2C%20I%20would%20like%20to%20inquire%20about%20a%20table%20reservation%20or%20order."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 rounded-full bg-espresso-900 border border-copper-500/30 flex items-center justify-center text-copper-400 hover:text-white hover:bg-[#25D366] hover:border-[#25D366] transition-all"
+                aria-label="WhatsApp"
+              >
+                <MessageCircle className="w-4 h-4" />
               </a>
             </div>
           </div>
